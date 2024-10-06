@@ -16,7 +16,7 @@ h1,h2,h3,h4,h5,h6,p,span,button{
 }
 
 a{
-    color:inherit; 
+    color:inherit;
     /* 文字の下の線を消す */
     text-decoration:none;   
 }
@@ -25,4 +25,40 @@ body{
     color:#555;
     margin:0;
     line-height:1.6;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    padding:0 20px;
+    color:#fff;
+    background-color:black;
+}
+
+.header-logo{
+    padding:20px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.header-nav ul{
+    display: flex;
+    padding:22px 0;
+}
+
+.header-nav ul li{
+    margin-left:55px;
+    font-size: 15px;
+} 
+
+footer{
+    background-color:#191919;
+    height:50px;
+}
+.company-info{
+    text-align:center;
+    line-height:50px;
+    font-weight: bold;
+    font-size: 12px;
+    color:#fff;
 }
