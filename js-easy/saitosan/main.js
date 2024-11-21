@@ -15,7 +15,6 @@ function getRandomInt(min, max) {
 
 const setBtn = function () {
   const random = getRandomInt(0, 9);
-
   if (random >= 4) {
     alert("齋藤さんだぞ");
   } else {
